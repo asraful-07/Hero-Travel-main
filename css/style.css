@@ -45,7 +45,7 @@ body{
     font-weight: 400;
     line-height: 23px;
 }
-.nabar ul li a:active{
+.nabar ul li a .active{
     color: rgb(255, 84, 0);
 }
 /*  main section code start */
@@ -218,7 +218,45 @@ input, select{
     text-align: center;
     margin: 20px;
 }
-/* Responsiv section code */
-/* @media screen and (max-width:600px){
-    
-} */
+/* footer section code */
+#footer{
+    background-color: grey;
+}
+.footer-container{
+    width: 90%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-titel{
+   color: tomato; 
+   font-size: 36px;
+   font-weight: 600;
+}
+.footer-word{
+    color: #000; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0;
+}
+.footer-sec p{
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.start{
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px;
+}
